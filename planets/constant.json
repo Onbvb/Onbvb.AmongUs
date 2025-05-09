@@ -1,0 +1,31 @@
+{
+    "name": "Celestial Constant",
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "SolarSystem",
+    "Base": {
+        "groundSize": 1000,
+        "surfaceSize": 1010,
+        "surfaceGravity": 12
+    },
+    "Orbit": {
+        "semiMajorAxis": 23000,
+        "primaryBody": "Sun",
+        "isTidallyLocked": true,
+        "isStatic": true
+    },
+    "Atmosphere": {
+        "size": 150,
+        "fogTint": {
+            "r": 200,
+            "g": 255,
+            "b": 255,
+            "a": 255
+        },
+        "fogSize": 150,
+        "fogDensity": 0.2,
+        "hasRain": true
+    },
+    "MapMarker": {
+        "enabled": true
+    }
+}
