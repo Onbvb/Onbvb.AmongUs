@@ -1,7 +1,7 @@
 {
     "name": "Fun Star",
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-    "starSystem": "The Super Cool Fun System",
+    "starSystem": "SuperCoolSystem",
     "Base": {
         "centerOfSolarSystem": true
 
