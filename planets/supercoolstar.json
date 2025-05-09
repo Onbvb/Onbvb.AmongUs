@@ -1,0 +1,34 @@
+{
+    "name": "Fun Star",
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "The Super Cool Fun System",
+    "Base": {
+        "centerOfSolarSystem": true
+
+    },
+    "Star": {
+        "lifespan": 5,
+        "endTint": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+        },
+        "size": 2000,
+        "tint": {
+            "r": 255,
+            "g": 0,
+            "b": 0
+        }
+    },
+    "MapMarker": {
+        "enabled": true
+    },
+    "Rings": [
+        {
+            "innerRadius": 0,
+            "outerRadius": 3000,
+            "inclination": 90,
+            "texture": "Onbvb.AmongUs/assets/ring1.png"
+        }
+    ]
+}
