@@ -7,6 +7,7 @@
 		<Dialogue>
 			<Page>hey it's me sans undertale from hit game undertale</Page>
 		</Dialogue>
+		<RevealFacts>MEET_SANS</RevealFacts>
 
 		<DialogueOptionsList>
 			<DialogueOption>
@@ -38,6 +39,9 @@
 			<Page>Lack of modeling experience.</Page>
             <Page>Don't question it too hard.</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>SANS_FISH</FactID>
+		</RevealFacts>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>Ok goodbye.</Text>
