@@ -40,5 +40,52 @@
             }
         }
         ]
+    },
+    "Props": {
+    "details": [
+			{
+				"path": "Anglerfish_Body/Beast_Anglerfish",
+				"position": 
+				{
+					"x": 0,
+					"y": 101,
+					"z": 0
+				},
+				"alignRadial": true,
+				"scale" : 0.02,
+				"removeChildren" :[
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
+				],
+				"rename": "Sans_Undertale_(real)"
+			}
+		],
+		"signals": [
+			{
+				"audio": "assets/Squish.ogg",
+				"parentPath": "Sector/Sans_Undertale_(real)",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 0,
+					"y": 0.5,
+					"z": 0
+				},
+				"name": "Squimsh",
+				"frequency": "Squeesh"
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "dialogue/sansUndertale.xml",
+				"parentPath": "Sector/Sans_Undertale_(real)",
+				"pathToAnimController": "Sector/Sans_Undertale_(real)",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 0,
+					"y": 0.5,
+					"z": 0
+				},
+				"radius": 2
+			}
+		]
     }
 }
