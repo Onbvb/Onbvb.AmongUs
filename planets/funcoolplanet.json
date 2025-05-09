@@ -8,7 +8,7 @@
         "surfaceGravity": 12
     },
     "Orbit": {
-        "semiMajorAxis": 500,
+        "semiMajorAxis": 10000,
         "primaryBody": "Fun Star",
         "isTidallyLocked": true,
         "inclination": 90,
