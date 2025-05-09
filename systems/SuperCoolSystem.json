@@ -8,6 +8,12 @@
     "loopDuration": 10,
     "Skybox": {
         "rightPath": "assets/skyboxRight.png",
-        "destroyStarField": true
+        "topPath": "assets/skyboxTop.png",
+        "bottomPath": "assets/skyboxBottom.png",
+        "leftPath": "assets/skyboxLeft.png",
+        "frontPath": "assets/skyboxFront.png",
+        "backPath": "assets/skyboxBack.png",
+        "destroyStarField": true,
+        "useCube": true
     }
 }
