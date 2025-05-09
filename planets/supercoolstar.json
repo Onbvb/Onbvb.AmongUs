@@ -28,7 +28,7 @@
             "innerRadius": 0,
             "outerRadius": 3000,
             "inclination": 90,
-            "texture": "Onbvb.AmongUs/assets/ring1.png"
+            "texture": "assets/ring1.png"
         }
     ]
 }

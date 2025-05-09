@@ -7,7 +7,7 @@
     "enableTimeLoop": true,
     "loopDuration": 10,
     "Skybox": {
-        "rightPath": "Onbvb.AmongUs/assets/skyboxRight.png",
+        "rightPath": "assets/skyboxRight.png",
         "destroyStarField": true
     }
 }
