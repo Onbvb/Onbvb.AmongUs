@@ -1,0 +1,45 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>funcoolplanet</ID>
+
+
+    <Entry>
+        <ID>FUN_PLANET</ID>
+        <Name>Fun Planet</Name>
+        <Curiosity>FUN_PLANET</Curiosity>
+        <IsCuriosity/>
+        <IgnoreMoreToExplore>
+    
+        <RumorFact>
+            <ID>FUN_PLANET_UNKNOWN</ID>
+            <RumorName>"Fun Planet"</RumorName>
+            <Text>It says the planet is fun...</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>LAND_FUN_PLANET</ID>
+            <Text>I Landed on the Fun Planet! It's so <![CDATA[<color=green>FUN!!!</color>]]></Text>
+        </ExploreFact>
+
+        <Entry>
+            <ID>SANS</ID>
+            <Name>Sans Undertale</Name>
+            <Curiosity>FUN_PLANET</Curiosity>
+
+            <RumorFact>
+                <ID>SANS_RUMOR</ID>
+                <RumorName>Mysterious Sound</RumorName>
+                <Text>I hear someone having a bad time...</Text>
+            </RumorFact>
+
+            <ExploreFact>
+                <ID>MEET_SANS</ID>
+                <Text>I Met Sans Undertale!</Text>
+            <ExploreFact>
+
+            <ExploreFact>
+                <ID>SANS_FISH</ID>
+                <Text>Sans Undertale appears to be a fish, He claims it's due to 'Lack of modeling experience'</Text>
+            <ExploreFact>
+        </Entry>
+    </Entry>

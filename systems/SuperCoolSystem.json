@@ -7,13 +7,31 @@
     "enableTimeLoop": true,
     "loopDuration": 10,
     "Skybox": {
-        "rightPath": "assets/skyboxRight.png",
-        "topPath": "assets/skyboxTop.png",
-        "bottomPath": "assets/skyboxBottom.png",
-        "leftPath": "assets/skyboxLeft.png",
-        "frontPath": "assets/skyboxFront.png",
-        "backPath": "assets/skyboxBack.png",
+        "rightPath": "assets/textures/skybox/Right.png",
+        "topPath": "assets/textures/skybox/Top.png",
+        "bottomPath": "assets/textures/skybox/Bottom.png",
+        "leftPath": "assets/textures/skybox/Left.png",
+        "frontPath": "assets/textures/skybox/Front.png",
+        "backPath": "assets/textures/skybox/Back.png",
         "destroyStarField": true,
         "useCube": true
-    }
+    },
+    "curiosities": [
+        {
+            "id": "FUN_PLANET",
+            "color": {
+                "r": 255,
+                "g": 255,
+                "b": 0,
+                "a": 255
+            },
+            "highlightColor": {
+                "r": 0,
+                "g": 1,
+                "b": 255,
+                "a": 255
+            }
+        }
+    ],
+    "initialReveal": ["FUN_PLANET_UNKNOWN"]
 }

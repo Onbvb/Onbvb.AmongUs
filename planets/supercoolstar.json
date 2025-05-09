@@ -31,7 +31,7 @@
             "innerRadius": 0,
             "outerRadius": 3000,
             "inclination": 90,
-            "texture": "assets/ring1.png"
+            "texture": "assets/textures/rings/ring1.png"
         }
     ]
 }
